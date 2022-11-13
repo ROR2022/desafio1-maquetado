@@ -1,0 +1,20 @@
+%btn-negro{
+  color: white;
+      background-color: black;
+}
+%boton{
+  margin: 1vw;
+      border-radius: 5px;
+      padding: 5px;
+      width: 12vw;
+}
+%flexcentrar{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+%flexaround{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}

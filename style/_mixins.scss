@@ -1,0 +1,4 @@
+@mixin tam($ancho,$alto) {
+  width: $ancho;
+  height: $alto;
+}

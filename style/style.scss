@@ -24,26 +24,8 @@ body{
 }
 
 @media only screen and (min-width:1000px){
-  %btn-negro{
-    color: white;
-        background-color: black;
-  }
-  %boton{
-    margin: 1vw;
-        border-radius: 5px;
-        padding: 5px;
-        width: 12vw;
-  }
-  %flexcentrar{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  %flexaround{
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-  }
+  @import 'extends';
+  @import 'mixins';
 
   .header__container{
     width: 100vw;
@@ -129,6 +111,9 @@ body{
     }
     
   }
+
+  @import "section__buscando";
+
   footer{
     @extend %flexaround;
     width: 100%;
