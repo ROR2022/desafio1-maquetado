@@ -26,6 +26,110 @@ body {
   font-family: "Raleway", sans-serif;
 }
 
+@media only screen and (max-width: 600px) {
+  .section__buscando button {
+    color: white;
+    background-color: black;
+  }
+  .section__buscando .modelos .modelo__butterfly .data .btns .precio {
+    color: black;
+    background-color: white;
+  }
+  .section__buscando button, .section__buscando .modelos .modelo__butterfly .data .btns .precio {
+    margin: 1vw;
+    border-radius: 5px;
+    padding: 5px;
+    width: 12vw;
+  }
+  .section__buscando .modelos .modelo__butterfly, .section__buscando .modelos, .section__buscando {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .section__buscando .modelos .modelo__butterfly .data .btns, .section__buscando .modelos .modelo__butterfly .data ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+  .section__buscando {
+    flex-direction: column;
+    width: 100vw;
+    height: auto;
+    background: linear-gradient(180deg, white 25%, #dcdcdc, white 90%);
+  }
+  .section__buscando h2 {
+    font-family: "Abril Fatface";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 40px;
+    width: 100%;
+    height: 72px;
+    text-align: center;
+    margin: 1vw 0;
+  }
+  .section__buscando .modelos {
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+  }
+  .section__buscando .modelos .modelo__butterfly {
+    margin: 4vw 0;
+    background-color: white;
+    border-radius: 5%;
+    flex-direction: column;
+    width: 80%;
+    height: auto;
+    box-shadow: 0px 28px 64px 12px rgba(0, 0, 0, 0.12);
+  }
+  .section__buscando .modelos .modelo__butterfly .img {
+    margin-top: 10%;
+    width: 80%;
+    height: 60%;
+  }
+  .section__buscando .modelos .modelo__butterfly .data {
+    width: 100%;
+    height: auto;
+    margin-left: 2vw;
+    margin-top: 4vw;
+    border-top: 1px dashed #DBDBDB;
+  }
+  .section__buscando .modelos .modelo__butterfly .data .name {
+    margin: 2vw 0;
+    font-family: "Abril Fatface";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+  }
+  .section__buscando .modelos .modelo__butterfly .data ul {
+    margin: 2vw 0;
+  }
+  .section__buscando .modelos .modelo__butterfly .data ul li {
+    font-family: "Raleway";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+  }
+  .section__buscando .modelos .modelo__butterfly .data .btns {
+    margin: 2vw 0;
+  }
+  .section__buscando .modelos .modelo__butterfly .data .btns .precio {
+    width: 60%;
+    height: 90%;
+    border: 1px solid black;
+    text-align: center;
+  }
+  .section__buscando .modelos .modelo__butterfly .data .btns .precio span {
+    font-weight: bolder;
+  }
+  .section__buscando button {
+    width: 40%;
+    height: 20%;
+    margin: 4vw 0;
+  }
+}
 @media only screen and (min-width: 1000px) {
   .section__buscando button, .header__section .header__section--btns .btn-negro, .header__container .header__nav .header__nav--desktop nav ul li .contactanos {
     color: white;
@@ -209,7 +313,7 @@ body {
     width: 100%;
     height: 60%;
     align-content: center;
-    margin-top: 5vw;
+    margin-top: 10vw;
   }
   .section__buscando .modelos .modelo__butterfly {
     width: 25%;
@@ -218,6 +322,7 @@ body {
     border-radius: 10px;
     background-color: white;
     position: relative;
+    box-shadow: 0px 28px 64px 12px rgba(0, 0, 0, 0.12);
   }
   .section__buscando .modelos .modelo__butterfly .img {
     width: 60%;

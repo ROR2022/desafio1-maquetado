@@ -1,0 +1,12 @@
+@mixin tam-mobile($ancho, $alto) {
+  width: $ancho;
+  height: $alto;
+}
+
+@mixin tipografia-mobile($letra, $estilo, $densidad, $size, $lh) {
+  font-family: $letra;
+  font-style: $estilo;
+  font-weight: $densidad;
+  font-size: $size;
+  line-height: $lh;
+}
