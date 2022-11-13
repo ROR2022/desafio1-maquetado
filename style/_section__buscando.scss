@@ -35,6 +35,17 @@
       @extend %flexcentrar;
       flex-direction: column;
       border: 1px solid black;
+      .img{
+        @include tam(70%,20%);
+        border: 1px solid black;
+      }
+      .data{
+        @include tam(90%,80%);
+        border: 1px solid black;
+        ul{
+          @extend %flexaround;
+        }
+      }
     }
     .modelo__leaf{
       @include tam(25%,80%);

@@ -1,4 +1,12 @@
-@mixin tam($ancho,$alto) {
+@mixin tam($ancho, $alto) {
   width: $ancho;
   height: $alto;
+}
+
+@mixin tipografia($letra, $estilo, $densidad, $size, $lh) {
+  font-family: $letra;
+  font-style: $estilo;
+  font-weight: $densidad;
+  font-size: $size;
+  line-height: $lh;
 }

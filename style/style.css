@@ -41,7 +41,7 @@ body {
     align-items: center;
     justify-content: center;
   }
-  footer, .section__buscando .modelos {
+  footer, .section__buscando .modelos .modelo__butterfly .data ul, .section__buscando .modelos {
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -135,7 +135,7 @@ body {
     align-items: center;
     justify-content: center;
   }
-  footer, .section__buscando .modelos {
+  footer, .section__buscando .modelos .modelo__butterfly .data ul, .section__buscando .modelos {
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -167,6 +167,16 @@ body {
     width: 25%;
     height: 80%;
     flex-direction: column;
+    border: 1px solid black;
+  }
+  .section__buscando .modelos .modelo__butterfly .img {
+    width: 70%;
+    height: 20%;
+    border: 1px solid black;
+  }
+  .section__buscando .modelos .modelo__butterfly .data {
+    width: 90%;
+    height: 80%;
     border: 1px solid black;
   }
   .section__buscando .modelos .modelo__leaf {
