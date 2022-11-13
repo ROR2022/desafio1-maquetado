@@ -2,6 +2,10 @@
   color: white;
       background-color: black;
 }
+%btn-blanco{
+  color: black;
+      background-color: white;
+}
 %boton{
   margin: 1vw;
       border-radius: 5px;
@@ -17,4 +21,9 @@
   display: flex;
   align-items: center;
   justify-content: space-around;
+}
+%flexbetween{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }

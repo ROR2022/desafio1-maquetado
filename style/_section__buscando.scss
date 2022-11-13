@@ -1,5 +1,5 @@
-@import 'extends';
-@import 'mixins';
+@import "extends";
+@import "mixins";
 
 .section__buscando {
   @extend %flexcentrar;
@@ -24,37 +24,70 @@
     text-align: center;
     margin: 1vw;
   }
-  .modelos{
+  .modelos {
     @extend %flexaround;
     align-content: center;
-    @include tam(100%,80%);
-    
+    @include tam(100%, 80%);
+
     margin: 1vw;
-    .modelo__butterfly{
-      @include tam(25%,80%);
+    .modelo__butterfly {
+      @include tam(25%, 80%);
       @extend %flexcentrar;
       flex-direction: column;
       border: 1px solid black;
-      .img{
-        @include tam(70%,20%);
+      position: relative;
+      .img {
+        @include tam(70%, 35%);
         border: 1px solid black;
+        position: absolute;
+        top: -20%;
       }
-      .data{
-        @include tam(90%,80%);
-        border: 1px solid black;
-        ul{
+      .data {
+        @include tam(100%, 50%);
+        margin-top: 8vw;
+        border-top: 1px dashed #DBDBDB;
+        display: flex;
+        align-items: stretch;
+        justify-content: space-between;
+        flex-direction: column;
+        
+        .name {
+          margin: 1vw;
+          @include tipografia("Abril Fatface", normal, 400, 16px, 22px);
+        }
+        ul {
           @extend %flexaround;
+          li {
+            @include tipografia("Raleway", normal, 400, 12px, 14px);
+          }
+        }
+        .btns {
+          @include tam(100%, 20%);
+          @extend %flexbetween;
+          .precio{
+            @include tam(60%, 100%);
+            @extend %boton;
+            @extend %btn-blanco;
+            border: 1px solid black;
+            @extend %flexcentrar;
+            span{
+              font-weight: bolder;
+            }
+          }
+          .img-cart{
+            @include tam(20%, 100%);
+          }
         }
       }
     }
-    .modelo__leaf{
-      @include tam(25%,80%);
+    .modelo__leaf {
+      @include tam(25%, 80%);
     }
-    .modelo__strauss{
-      @include tam(25%,80%);
+    .modelo__strauss {
+      @include tam(25%, 80%);
     }
   }
-  button{
+  button {
     @extend %btn-negro;
     @extend %boton;
   }
