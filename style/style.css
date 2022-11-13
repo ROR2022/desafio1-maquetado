@@ -56,6 +56,35 @@ body {
     align-items: center;
     justify-content: space-between;
   }
+  .section__buscando button, .header__section .header__section--btns .btn-negro, .header__container .header__nav .header__nav--desktop nav ul li .contactanos {
+    color: white;
+    background-color: black;
+  }
+  .section__buscando .modelos .modelo__butterfly .data .btns .precio {
+    color: black;
+    background-color: white;
+  }
+  .section__buscando button, .section__buscando .modelos .modelo__butterfly .data .btns .precio, .header__section .header__section--btns button, .header__container .header__nav .header__nav--desktop nav ul li .contactanos {
+    margin: 1vw;
+    border-radius: 5px;
+    padding: 5px;
+    width: 12vw;
+  }
+  footer .firma, .section__buscando .modelos .modelo__butterfly .data .btns .precio, .section__buscando .modelos .modelo__butterfly, .section__buscando {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  footer section .footer__logos, footer section, .section__buscando .modelos .modelo__butterfly .data ul, .section__buscando .modelos {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+  footer, .section__buscando .modelos .modelo__butterfly .data .btns {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
   .header__container {
     width: 100vw;
     height: auto;
@@ -241,6 +270,35 @@ body {
   .section__buscando button {
     width: 10%;
     height: 5%;
+  }
+  .header__container .header__nav .header__nav--desktop nav ul li .contactanos, .header__section .header__section--btns .btn-negro, .section__buscando button {
+    color: white;
+    background-color: black;
+  }
+  .section__buscando .modelos .modelo__butterfly .data .btns .precio {
+    color: black;
+    background-color: white;
+  }
+  .header__container .header__nav .header__nav--desktop nav ul li .contactanos, .header__section .header__section--btns button, .section__buscando .modelos .modelo__butterfly .data .btns .precio, .section__buscando button {
+    margin: 1vw;
+    border-radius: 5px;
+    padding: 5px;
+    width: 12vw;
+  }
+  footer .firma, .section__buscando, .section__buscando .modelos .modelo__butterfly, .section__buscando .modelos .modelo__butterfly .data .btns .precio {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  footer section .footer__logos, footer section, .section__buscando .modelos, .section__buscando .modelos .modelo__butterfly .data ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+  footer, .section__buscando .modelos .modelo__butterfly .data .btns {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
   }
   footer {
     flex-direction: column;
