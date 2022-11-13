@@ -112,8 +112,11 @@ body{
     
   }
 
+
   @import "section__buscando";
 
+  @import "section__partners.scss";
+  
   footer{
     @extend %flexaround;
     width: 100%;
