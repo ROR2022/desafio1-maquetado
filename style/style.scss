@@ -113,6 +113,119 @@ body{
   }
 
   @import "section__buscando";
+  
+  .section__contactanos{
+    position: relative;
+    padding: 32px;
+    height: auto;
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+    background: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0.35) 100%);
+    //background-image: url(/assets/imagenes/contactanos_background.png);
+    background-repeat: no-repeat;
+    background-size: cover;    
+    .section__contactanos--fondo {        
+        object-fit: contain;
+        overflow: hidden;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: -1;
+        width: 100%;
+        img{
+            height: 100%;
+            width: 100%;
+        }
+    }
+    h2 {
+        font-family: 'Abril Fatface';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 32px;
+        display: flex;
+        align-items: center;
+        letter-spacing: 0.05em;
+        color: #000000;
+        margin-bottom: 20px;
+        justify-content: center;
+    }
+    p {
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 19px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        letter-spacing: 0.05em;
+        color: #000000;
+    }
+    form {
+        input {
+            background: rgba(0, 0, 0, 0.65);
+            border: 1px solid #FFFFFF;
+            border-radius: 4px;
+            width: 100%;
+            height: 36px;
+            margin-top: 18px;
+            .input__cuentanos {
+                box-sizing: border-box;
+                position: absolute;
+                width: 288px;
+                height: 148px;
+                background: rgba(0, 0, 0, 0.65);
+                border: 1px solid #FFFFFF;
+            }
+        }
+        label {
+            font-family: 'Raleway';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 16px;
+            line-height: 19px;
+            display: flex;
+            align-items: center;
+            letter-spacing: 0.05em;
+            margin-top: 18px;
+        }
+        button {
+            width: 100%;
+            height: 32px;
+            background: #000000;
+            border-radius: 8px;
+            color: white;
+            font-family: Raleway;
+            font-size: 14px;
+            text-align: center;
+            font-weight: bolder;
+            margin-top: 16px;
+        }
+        textarea#cuentanos {
+            width: 100%;
+            background: rgba(0, 0, 0, 0.65);
+            border: 1px solid #FFFFFF;
+            border-radius: 4px;
+            margin-top: 18px;
+        }
+    }
+    .section__contactanos--body{
+        max-width: 600px;
+        margin: 0 auto;
+        .input__telemail{
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          .columnas{
+            width: 45%;
+          }
+        }
+    }
+}
 
   footer{
     @extend %flexaround;
