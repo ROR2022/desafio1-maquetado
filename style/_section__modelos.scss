@@ -1,0 +1,94 @@
+    .section__modelonuevo{
+        background-image:  url(../img/Background.png);
+        background-size:     cover;                      /* <------ */
+        background-repeat:   no-repeat;
+        width: 100vw;
+        
+      
+        h2{
+          font-family: 'Abril Fatface' ;
+          text-align: center;
+          letter-spacing: .2vw;
+          font-weight: 400;
+          font-size: 32px;
+        }
+        .modelo__ebony-container{
+          margin-left: 2%;
+          color: white;
+          margin-top: 10vh;
+          padding-bottom: 3vh;
+          @extend %flexaround; 
+          .modelo__ebony-text{
+            width: 40%;
+            h3{
+              font-family: 'Abril Fatface' ;
+              text-align: left;
+              letter-spacing: .2vw;
+              font-weight: 400;
+              font-size: 24px;
+              margin-bottom: 2vh;
+            }
+            h4{
+              font-weight: 700;
+              font-size: 12px;
+              margin-bottom: 2vh;
+            }
+            h2{
+            font-family: 'Abril Fatface' ;
+            text-align: left;
+            letter-spacing: .2vw;
+            font-weight: 400;
+            font-size: 24px;
+            margin-bottom: 2vh;
+            }
+            p{
+              width: 90%;
+              font-weight: 400;
+              font-size: 16px;
+              margin-bottom: 2vh;
+              line-height: 2.5vh;
+            }
+            ul{
+              width: 50%;
+              @extend %flexaround;
+            }
+            li{
+              margin-left: 0%;
+              list-style: inherit;
+              font-size: 12px;
+            }
+            .btn-negro-mobile{
+              display: none;
+            }
+
+            .btn-negro-desktop{
+              @extend %btn-negro;
+              margin-top: 2.5vh;
+              border-radius: 5px;
+              padding: 5px;
+              width: 20vw;
+            }
+            
+          }
+        }
+        .modelo__ebony-image{
+          width: 40%;
+          position: relative;
+          .pianocafe_b1{
+            position: absolute;
+            left: 0%;
+            top: -30vh;
+          }
+          .pianocafe_b2{
+            position: absolute;
+            left: 0%;
+            top: -30vh;
+          }
+          .pianocafe{
+            position: absolute;
+            left: 0%;
+            top: -30vh;
+          }
+      
+        }
+       }

@@ -1,0 +1,104 @@
+.section__partners{
+    border: 1px solid black;
+    background: linear-gradient(#6f6f6f, #fff);
+    h4{
+        font-family: 'Abril Fatface';
+        font-size: 25px;
+        text-align: center;
+        font-weight: 400;
+        padding-left: 20%;
+        padding-right: 20%;
+    }
+}
+#parispian{
+    display: none;
+}
+#hefiltiti{
+    display: none;
+}
+#yamaha{
+    display: none;
+}
+#pianotwo{
+    display: none;
+}
+.div__primerFila{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.div__segundaFila{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.div__tercerFila{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#petrof, #piafmar{
+    border: 1px solid black;
+    width: 288px;
+    height: 100px;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border: 7px solid black;
+    border-right: 0;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    color: white;
+    margin-right: 0;
+    padding-right: 40px;
+    span{
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 30px;
+        text-align: center;
+    }
+}
+#bookpa{
+    border: 1px solid black;
+    width: 288px;
+    height: 100px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border: 7px solid black;
+    border-left: 0;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    color: white;
+    margin-right: 0;
+    padding-left: 40px;
+    span{
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 30px;
+        text-align: center;
+    }
+}
+.contenedor__imagen{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    width: 90px;
+    height: 90px;
+    background-color: gray;
+    border-radius: 50%;
+    border: 1px solid white;
+}

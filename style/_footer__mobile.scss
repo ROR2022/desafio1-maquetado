@@ -1,0 +1,61 @@
+footer {
+  @include tam-mobile(100vw, auto);
+  @extend %flexaround-mobile;
+  flex-direction: column;
+  background: linear-gradient(
+    177.96deg,
+    rgba(255, 255, 255, 0.43) 1.72%,
+    #6f6f6f 107.44%
+  );
+  section {
+    @include tam-mobile(100%, 90%);
+    .footer__logos {
+      @include tam-mobile(100vw, 40%);
+      @extend %flexaround-mobile;
+      flex-direction: column;
+      text-align: center;
+      img {
+        border-radius: 4vw;
+      }
+    }
+    .footer__nosotros {
+      @extend %flexaround-mobile;
+        flex-direction: column;
+        @include tam-mobile(100vw, 40%);
+      h2 {
+        @include tipografia-mobile("Abril Fatface", normal, 400, 14px, 19px);
+      }
+      ul {
+        @extend %flexaround-mobile;
+        flex-direction: column;
+        li{
+          @include tipografia-mobile(inherit, normal, 100, 14px, 25px);
+        }
+      }
+      p {
+        display: none;
+      }
+    }
+    .footer__contactanos{
+      @extend %flexaround-mobile;
+        flex-direction: column;
+        @include tam-mobile(100vw, 20%);
+        h2{
+          @include tipografia-mobile("Abril Fatface", normal, 400, 14px, 19px);
+        }
+        p{
+          margin-bottom: 5vh;
+          @include tam-mobile(50%, 20%);
+          @include tipografia-mobile(inherit, normal, 300, 14px, 21px);
+        }
+    }
+  }
+  p{
+    margin-top: 5vh;
+    @include tipografia-mobile("Raleway", normal, 300, 14px, 16px);
+  }
+  .firma {
+    margin-top: 5vh;
+    text-align: center;
+  }
+}

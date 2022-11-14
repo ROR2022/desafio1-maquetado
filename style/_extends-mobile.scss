@@ -1,0 +1,29 @@
+%btn-negro-mobile{
+  color: white;
+      background-color: black;
+}
+%btn-blanco-mobile{
+  color: black;
+      background-color: white;
+}
+%boton-mobile{
+  margin: 1vw;
+      border-radius: 5px;
+      padding: 5px;
+      width: 12vw;
+}
+%flexcentrar-mobile{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+%flexaround-mobile{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+%flexbetween-mobile{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
