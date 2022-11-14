@@ -1002,7 +1002,7 @@ body {
     font-size: 14px;
     line-height: 25px;
   }
-  footer p {
+  footer .derechos {
     display: none;
   }
   footer .firma {
