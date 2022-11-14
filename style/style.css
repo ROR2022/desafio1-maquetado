@@ -590,10 +590,10 @@ body {
   }
   .section__buscando .modelos .modelo__butterfly .data .btns {
     width: 100%;
-    height: 20%;
+    height: 25%;
   }
   .section__buscando .modelos .modelo__butterfly .data .btns .precio {
-    width: 90%;
+    width: 80%;
     height: 100%;
     border: 1px solid black;
   }

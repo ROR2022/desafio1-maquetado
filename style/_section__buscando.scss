@@ -60,10 +60,10 @@
           }
         }
         .btns {
-          @include tam(100%, 20%);
+          @include tam(100%, 25%);
           @extend %flexbetween;
           .precio{
-            @include tam(90%, 100%);
+            @include tam(80%, 100%);
             @extend %boton;
             @extend %btn-blanco;
             border: 1px solid black;
