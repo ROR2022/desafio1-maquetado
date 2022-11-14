@@ -9,6 +9,7 @@ html {
   min-height: 100vh;
   overflow-x: hidden;
 }
+
 @import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap");
 
 @import url("https://fonts.googleapis.com/css?family=Raleway:300,400,700&display=swap");
@@ -24,12 +25,11 @@ body {
   font-family: "Raleway", sans-serif;
 }
 
-
-@media only screen and (max-width: 600px){
+@media only screen and (max-width: 600px) {
   @import "extends-mobile";
   @import "mixins-mobile";
   @import "section__buscando--mobile";
-  @import "section__modelos-mobile"
+  @import "section__modelos-mobile";
 }
 
 @media only screen and (min-width: 1000px) {
@@ -38,8 +38,8 @@ body {
 
   @import "header";
 
- @import "section__buscando";
- @import "section__modelos";
+  @import "section__buscando";
+  @import "section__modelos";
 
   @import "footer";
 }
