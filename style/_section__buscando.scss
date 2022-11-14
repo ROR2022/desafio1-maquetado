@@ -63,7 +63,7 @@
           @include tam(100%, 20%);
           @extend %flexbetween;
           .precio{
-            @include tam(60%, 100%);
+            @include tam(90%, 100%);
             @extend %boton;
             @extend %btn-blanco;
             border: 1px solid black;
