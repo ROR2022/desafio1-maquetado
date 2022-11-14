@@ -405,7 +405,7 @@ body {
     padding: 5px;
     width: 12vw;
   }
-  footer .firma, .section__buscando .modelos .modelo__butterfly .data .btns .precio, .section__buscando .modelos .modelo__butterfly, .section__buscando {
+  footer .firma, .div__tercerFila, .div__segundaFila, .div__primerFila, .section__buscando .modelos .modelo__butterfly .data .btns .precio, .section__buscando .modelos .modelo__butterfly, .section__buscando {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -420,6 +420,37 @@ body {
     align-items: center;
     justify-content: space-between;
   }
+  /*COMIENZA ZOY*/
+  .section__partners {
+    border: 1px solid black;
+    width: 100%;
+    height: 60vh;
+  }
+  .div__partners, .div__segundaFila #yamaha, .div__segundaFila #hefiltiti {
+    border: 1px solid black;
+    border-radius: 50px;
+    border: 7px solid black;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    color: white;
+  }
+  .contenedor__imagen {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+  }
+  .div__partners span, .div__segundaFila #yamaha, .div__segundaFila #hefiltiti, .section__partners h4 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    text-align: center;
+  }
+  /*COMIENZA ZOY*/
   .header__container {
     width: 100vw;
     height: auto;
@@ -664,6 +695,71 @@ body {
     left: 0%;
     top: -30vh;
   }
+  .section__partners {
+    position: relative;
+    background: linear-gradient(#6f6f6f, #fff);
+  }
+  .section__partners h4 {
+    font-family: "Abril Fatface";
+  }
+  .div__contenedor_partners {
+    width: 100%;
+    height: 100%;
+  }
+  .div__primerFila {
+    gap: 100px;
+    width: 100%;
+    height: 30%;
+  }
+  .div__segundaFila {
+    gap: 100px;
+    width: 100%;
+    height: 30%;
+  }
+  .div__segundaFila #hefiltiti {
+    position: absolute;
+    margin-right: 88%;
+    width: 315px;
+    height: 100px;
+    font-family: "Raleway";
+  }
+  .div__segundaFila #yamaha {
+    position: absolute;
+    margin-left: 83%;
+    width: 315px;
+    height: 100px;
+    font-family: "Raleway";
+  }
+  .div__segundaFila #yamaha #imgYamaha {
+    width: 90px;
+    height: 90px;
+    background-color: gray;
+    border-radius: 50%;
+    border: 1px solid white;
+    display: flex;
+    justify-content: flex-start;
+    padding: 10px;
+    align-items: stretch;
+  }
+  .div__tercerFila {
+    gap: 30px;
+    width: 100%;
+    height: 30%;
+  }
+  .div__partners {
+    width: 30%;
+    height: 100%;
+  }
+  .div__partners span {
+    font-family: "Raleway";
+  }
+  .contenedor__imagen {
+    width: 90px;
+    height: 90px;
+    background-color: gray;
+    border-radius: 50%;
+    border: 1px solid white;
+  }
   .header__container .header__nav .header__nav--desktop nav ul li .contactanos, .header__section .header__section--btns .btn-negro, .section__buscando button, .section__modelonuevo .modelo__ebony-container .modelo__ebony-text .btn-negro-desktop {
     color: white;
     background-color: black;
@@ -678,7 +774,7 @@ body {
     padding: 5px;
     width: 12vw;
   }
-  footer .firma, .section__buscando, .section__buscando .modelos .modelo__butterfly, .section__buscando .modelos .modelo__butterfly .data .btns .precio {
+  footer .firma, .section__buscando, .section__buscando .modelos .modelo__butterfly, .section__buscando .modelos .modelo__butterfly .data .btns .precio, .div__primerFila, .div__segundaFila, .div__tercerFila {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -693,6 +789,37 @@ body {
     align-items: center;
     justify-content: space-between;
   }
+  /*COMIENZA ZOY*/
+  .section__partners {
+    border: 1px solid black;
+    width: 100%;
+    height: 60vh;
+  }
+  .div__segundaFila #hefiltiti, .div__segundaFila #yamaha, .div__partners {
+    border: 1px solid black;
+    border-radius: 50px;
+    border: 7px solid black;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    color: white;
+  }
+  .contenedor__imagen {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+  }
+  .section__partners h4, .div__segundaFila #hefiltiti, .div__segundaFila #yamaha, .div__partners span {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    text-align: center;
+  }
+  /*COMIENZA ZOY*/
   footer {
     flex-direction: column;
     width: 100vw;
