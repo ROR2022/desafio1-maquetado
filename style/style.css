@@ -520,21 +520,22 @@ body {
   }
   .section__modelonuevo .modelo__ebony-image {
     width: 40%;
+    position: relative;
   }
   .section__modelonuevo .modelo__ebony-image .pianocafe_b1 {
     position: absolute;
-    left: 55%;
-    top: 115%;
+    left: 0%;
+    top: -30vh;
   }
   .section__modelonuevo .modelo__ebony-image .pianocafe_b2 {
     position: absolute;
-    left: 55%;
-    top: 115%;
+    left: 0%;
+    top: -30vh;
   }
   .section__modelonuevo .modelo__ebony-image .pianocafe {
     position: absolute;
-    left: 55%;
-    top: 115%;
+    left: 0%;
+    top: -30vh;
   }
   .header__container .header__nav .header__nav--desktop nav ul li .contactanos, .header__section .header__section--btns .btn-negro, .section__buscando button, .section__modelonuevo .modelo__ebony-container .modelo__ebony-text .btn-negro-desktop {
     color: white;
