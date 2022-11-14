@@ -1,0 +1,56 @@
+.header__container {
+  @include tam-mobile(100vw, 100vh);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+
+  .header__nav {
+    margin: 5vh 0;
+    padding: 0 5vw;
+    @extend %flexbetween-mobile;
+    @include tam-mobile(100%, 10%);
+    .header__nav--logo {
+      @include tam-mobile(25%, 100%);
+    }
+    .header__nav--desktop {
+      display: none;
+    }
+    .header__nav--cart {
+      @include tam-mobile(20%, 100%);
+    }
+  }
+  .header__section {
+    @include tam-mobile(100%, 80%);
+    p {
+      text-align: center;
+      @include tipografia-mobile("Raleway", normal, 500, 16px, 19px);
+      color: #858585;
+      margin: 5vh 0;
+    }
+    h1 {
+      text-align: center;
+      margin: 5vh 0;
+      @include tipografia-mobile("Abril Fatface", normal, 400, 32px, 43px);
+    }
+    .header__section--btns {
+      @include tam-mobile(100%, 10%);
+      text-align: center;
+      
+      @extend %flexaround-mobile;
+      .btn-negro {
+        @include tam-mobile(40%, 80%);
+        @extend %boton-mobile;
+        @extend %btn-negro-mobile;
+      }
+      .btn-blanco {
+        @include tam-mobile(40%, 80%);
+        @extend %boton-mobile;
+        @extend %btn-blanco-mobile;
+      }
+    }
+    .header__section--images {
+      text-align: center;
+    }
+  }
+}

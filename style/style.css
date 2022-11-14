@@ -27,15 +27,15 @@ body {
 }
 
 @media only screen and (max-width: 600px) {
-  .section__buscando button {
+  .section__buscando button, .header__container .header__section .header__section--btns .btn-negro {
     color: white;
     background-color: black;
   }
-  .section__buscando .modelos .modelo__butterfly .data .btns .precio {
+  .section__buscando .modelos .modelo__butterfly .data .btns .precio, .header__container .header__section .header__section--btns .btn-blanco {
     color: black;
     background-color: white;
   }
-  .section__buscando button, .section__buscando .modelos .modelo__butterfly .data .btns .precio {
+  .section__buscando button, .section__buscando .modelos .modelo__butterfly .data .btns .precio, .header__container .header__section .header__section--btns .btn-blanco, .header__container .header__section .header__section--btns .btn-negro {
     margin: 1vw;
     border-radius: 5px;
     padding: 5px;
@@ -46,10 +46,79 @@ body {
     align-items: center;
     justify-content: center;
   }
-  .section__buscando .modelos .modelo__butterfly .data .btns, .section__buscando .modelos .modelo__butterfly .data ul {
+  .section__buscando .modelos .modelo__butterfly .data .btns, .section__buscando .modelos .modelo__butterfly .data ul, .header__container .header__section .header__section--btns {
     display: flex;
     align-items: center;
     justify-content: space-around;
+  }
+  .header__container .header__nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .header__container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+  }
+  .header__container .header__nav {
+    margin: 5vh 0;
+    padding: 0 5vw;
+    width: 100%;
+    height: 10%;
+  }
+  .header__container .header__nav .header__nav--logo {
+    width: 25%;
+    height: 100%;
+  }
+  .header__container .header__nav .header__nav--desktop {
+    display: none;
+  }
+  .header__container .header__nav .header__nav--cart {
+    width: 20%;
+    height: 100%;
+  }
+  .header__container .header__section {
+    width: 100%;
+    height: 80%;
+  }
+  .header__container .header__section p {
+    text-align: center;
+    font-family: "Raleway";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #858585;
+    margin: 5vh 0;
+  }
+  .header__container .header__section h1 {
+    text-align: center;
+    margin: 5vh 0;
+    font-family: "Abril Fatface";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 43px;
+  }
+  .header__container .header__section .header__section--btns {
+    width: 100%;
+    height: 10%;
+    text-align: center;
+  }
+  .header__container .header__section .header__section--btns .btn-negro {
+    width: 40%;
+    height: 80%;
+  }
+  .header__container .header__section .header__section--btns .btn-blanco {
+    width: 40%;
+    height: 80%;
+  }
+  .header__container .header__section .header__section--images {
+    text-align: center;
   }
   .section__buscando {
     flex-direction: column;
@@ -235,35 +304,6 @@ body {
   }
 }
 @media only screen and (min-width: 1000px) {
-  .section__modelonuevo .modelo__ebony-container .modelo__ebony-text .btn-negro-desktop, .section__buscando button, .header__section .header__section--btns .btn-negro, .header__container .header__nav .header__nav--desktop nav ul li .contactanos {
-    color: white;
-    background-color: black;
-  }
-  .section__buscando .modelos .modelo__butterfly .data .btns .precio {
-    color: black;
-    background-color: white;
-  }
-  .section__buscando button, .section__buscando .modelos .modelo__butterfly .data .btns .precio, .header__section .header__section--btns button, .header__container .header__nav .header__nav--desktop nav ul li .contactanos {
-    margin: 1vw;
-    border-radius: 5px;
-    padding: 5px;
-    width: 12vw;
-  }
-  footer .firma, .section__buscando .modelos .modelo__butterfly .data .btns .precio, .section__buscando .modelos .modelo__butterfly, .section__buscando {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  footer section .footer__logos, footer section, .section__modelonuevo .modelo__ebony-container .modelo__ebony-text ul, .section__modelonuevo .modelo__ebony-container, .section__buscando .modelos .modelo__butterfly .data ul, .section__buscando .modelos {
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-  }
-  footer, .section__buscando .modelos .modelo__butterfly .data .btns {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-  }
   .section__modelonuevo .modelo__ebony-container .modelo__ebony-text .btn-negro-desktop, .section__buscando button, .header__section .header__section--btns .btn-negro, .header__container .header__nav .header__nav--desktop nav ul li .contactanos {
     color: white;
     background-color: black;
