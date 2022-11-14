@@ -1002,6 +1002,9 @@ body {
     font-size: 14px;
     line-height: 25px;
   }
+  footer p {
+    display: none;
+  }
   footer .firma {
     width: 20%;
     height: 10%;
