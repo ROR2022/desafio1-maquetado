@@ -35,7 +35,7 @@
     }
     .header__section--btns {
       @include tam-mobile(100%, 10%);
-      text-align: center;
+      padding-left: 5vw;
       
       @extend %flexaround-mobile;
       .btn-negro {
@@ -51,6 +51,13 @@
     }
     .header__section--images {
       text-align: center;
+      @include tam-mobile(100%,70%);
+      img {
+        @include tam-mobile(80%, 100%);
+      }
+      .header__section--imgredes{
+        display: none;
+      }
     }
   }
 }
