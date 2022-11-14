@@ -27,7 +27,6 @@ body {
 
 @media only screen and (max-width: 662px) {
   .section__modelonuevo {
-    border: 1px solid #000;
     width: 100vw;
     height: auto;
     text-align: center;
@@ -42,14 +41,12 @@ body {
   .section__modelonuevo .modelo__ebony-container {
     height: auto;
     background: linear-gradient(180deg, rgba(255, 255, 255, 0.820101) 1%, rgba(0, 0, 0, 0.75) 60%, rgba(0, 0, 0, 0.75) 90%, rgba(255, 255, 255, 0.6454) 100%);
-    border: 1px solid #000;
     display: flex;
     justify-content: center;
     align-content: center;
     flex-direction: column-reverse;
   }
   .section__modelonuevo .modelo__ebony-container .modelo__ebony-text {
-    border: 1px solid #000;
     height: auto;
     margin-top: 5%;
     color: white;
@@ -79,7 +76,6 @@ body {
     margin-left: 25%;
     width: 50%;
     height: 200px;
-    border: #000 solid 1px;
     text-align: center;
   }
   .section__modelonuevo .modelo__ebony-container .modelo__ebony-text ul {
@@ -101,14 +97,12 @@ body {
     padding: 5px;
     width: 50vw;
     color: white;
-    background-color: black;
   }
   .section__modelonuevo .modelo__ebony-container .modelo__ebony-image {
     background-image: url(../img/Background.png);
     background-size: cover; /* <------ */
     background-repeat: no-repeat;
-    border: 1px solid #000;
-    height: 30vh;
+    height: 35vh;
     width: 100%;
     position: relative;
   }
@@ -299,17 +293,17 @@ body {
   .section__modelonuevo .modelo__ebony-image .pianocafe_b1 {
     position: absolute;
     left: 55%;
-    top: 115%;
+    top: 130%;
   }
   .section__modelonuevo .modelo__ebony-image .pianocafe_b2 {
     position: absolute;
     left: 55%;
-    top: 115%;
+    top: 130%;
   }
   .section__modelonuevo .modelo__ebony-image .pianocafe {
     position: absolute;
     left: 55%;
-    top: 115%;
+    top: 130%;
   }
   .section__buscando button, .header__container .header__nav .header__nav--desktop nav ul li .contactanos, .header__section .header__section--btns .btn-negro, .section__modelonuevo .modelo__ebony-container .modelo__ebony-text .btn-negro-desktop {
     color: white;
