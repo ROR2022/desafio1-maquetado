@@ -1,6 +1,7 @@
 
 
 .section__partners{
+    overflow: hidden;
     position: relative;
     @include tam(100vw,100vh);
     @extend %medidaSectionPartners;
