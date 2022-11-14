@@ -22,7 +22,11 @@ a{
 body{
     font-family: 'Raleway',sans-serif;
 }
+@media only screen and (max-width:662px){
+  @import 'extends-mobile';
+  @import 'section__modelos-mobile';
 
+}
 @media only screen and (min-width:1000px){
   @import 'extends';
   @import 'mixins';
@@ -111,8 +115,9 @@ body{
     }
     
   }
+  @import "section__modelos";
 
-  @import "section__buscando";
+ @import "section__buscando";
 
   footer{
     @extend %flexaround;

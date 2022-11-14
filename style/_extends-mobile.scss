@@ -1,0 +1,20 @@
+%btn-negro-2{
+    color: white;
+        background-color: black;
+  }
+  %boton-2{
+    margin: 1vw;
+        border-radius: 5px;
+        padding: 5px;
+        width: 12vw;
+  }
+  %flexcentrar-2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  %flexaround-2{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }

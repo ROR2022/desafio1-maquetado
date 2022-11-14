@@ -25,8 +25,114 @@ body {
   font-family: "Raleway", sans-serif;
 }
 
+@media only screen and (max-width: 662px) {
+  .section__modelonuevo {
+    border: 1px solid #000;
+    width: 100vw;
+    height: auto;
+    text-align: center;
+  }
+  .section__modelonuevo h2 {
+    font-family: "Abril Fatface";
+    text-align: center;
+    letter-spacing: 0.2vw;
+    font-weight: 400;
+    font-size: 32px;
+  }
+  .section__modelonuevo .modelo__ebony-container {
+    height: auto;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.820101) 1%, rgba(0, 0, 0, 0.75) 60%, rgba(0, 0, 0, 0.75) 90%, rgba(255, 255, 255, 0.6454) 100%);
+    border: 1px solid #000;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column-reverse;
+  }
+  .section__modelonuevo .modelo__ebony-container .modelo__ebony-text {
+    border: 1px solid #000;
+    height: auto;
+    margin-top: 5%;
+    color: white;
+  }
+  .section__modelonuevo .modelo__ebony-container .modelo__ebony-text h3 {
+    font-family: "Abril Fatface";
+    text-align: center;
+    letter-spacing: 0.2vw;
+    font-weight: 400;
+    font-size: 28px;
+    margin-bottom: 2vh;
+  }
+  .section__modelonuevo .modelo__ebony-container .modelo__ebony-text h4 {
+    font-weight: 700;
+    font-size: 17px;
+    margin-bottom: 2vh;
+  }
+  .section__modelonuevo .modelo__ebony-container .modelo__ebony-text h2 {
+    font-family: "Abril Fatface";
+    text-align: center;
+    letter-spacing: 0.2vw;
+    font-weight: 400;
+    font-size: 24px;
+    margin-bottom: 2vh;
+  }
+  .section__modelonuevo .modelo__ebony-container .modelo__ebony-text p {
+    margin-left: 25%;
+    width: 50%;
+    height: 200px;
+    border: #000 solid 1px;
+    text-align: center;
+  }
+  .section__modelonuevo .modelo__ebony-container .modelo__ebony-text ul {
+    margin-top: 1%;
+    margin-left: 25%;
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+  }
+  .section__modelonuevo .modelo__ebony-container .modelo__ebony-text ul li {
+    list-style: inherit;
+  }
+  .section__modelonuevo .modelo__ebony-container .modelo__ebony-text .btn-negro-desktop {
+    display: none;
+  }
+  .section__modelonuevo .modelo__ebony-container .modelo__ebony-text .btn-negro-mobile {
+    margin-top: 1.8vh;
+    border-radius: 10px;
+    padding: 5px;
+    width: 50vw;
+    color: white;
+    background-color: black;
+  }
+  .section__modelonuevo .modelo__ebony-container .modelo__ebony-image {
+    background-image: url(../img/Background.png);
+    background-size: cover; /* <------ */
+    background-repeat: no-repeat;
+    border: 1px solid #000;
+    height: 30vh;
+    width: 100%;
+    position: relative;
+  }
+  .section__modelonuevo .modelo__ebony-container .modelo__ebony-image .pianocafe_b1 {
+    position: absolute;
+    top: 10%;
+    left: 15%;
+    right: 0;
+  }
+  .section__modelonuevo .modelo__ebony-container .modelo__ebony-image .pianocafe_b2 {
+    position: absolute;
+    top: 12%;
+    left: 27%;
+    right: 0;
+  }
+  .section__modelonuevo .modelo__ebony-container .modelo__ebony-image .pianocafe {
+    position: absolute;
+    top: 10%;
+    left: 15%;
+    right: 0;
+  }
+}
 @media only screen and (min-width: 1000px) {
-  .section__buscando button, .header__section .header__section--btns .btn-negro, .header__container .header__nav .header__nav--desktop nav ul li .contactanos {
+  .section__buscando button, .section__modelonuevo .modelo__ebony-container .modelo__ebony-text .btn-negro-desktop, .header__section .header__section--btns .btn-negro, .header__container .header__nav .header__nav--desktop nav ul li .contactanos {
     color: white;
     background-color: black;
   }
@@ -41,7 +147,7 @@ body {
     align-items: center;
     justify-content: center;
   }
-  footer, .section__buscando .modelos {
+  footer, .section__buscando .modelos, .section__modelonuevo .modelo__ebony-container .modelo__ebony-text ul, .section__modelonuevo .modelo__ebony-container {
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -120,7 +226,92 @@ body {
   .header__section .header__section--images .header__section--imgredes {
     margin: 1px;
   }
-  .section__buscando button, .header__container .header__nav .header__nav--desktop nav ul li .contactanos, .header__section .header__section--btns .btn-negro {
+  .section__modelonuevo {
+    background-image: url(../img/Background.png);
+    background-size: cover; /* <------ */
+    background-repeat: no-repeat;
+    width: 100vw;
+  }
+  .section__modelonuevo h2 {
+    font-family: "Abril Fatface";
+    text-align: center;
+    letter-spacing: 0.2vw;
+    font-weight: 400;
+    font-size: 32px;
+  }
+  .section__modelonuevo .modelo__ebony-container {
+    margin-left: 2%;
+    color: white;
+    margin-top: 10vh;
+    padding-bottom: 3vh;
+  }
+  .section__modelonuevo .modelo__ebony-container .modelo__ebony-text {
+    width: 40%;
+  }
+  .section__modelonuevo .modelo__ebony-container .modelo__ebony-text h3 {
+    font-family: "Abril Fatface";
+    text-align: left;
+    letter-spacing: 0.2vw;
+    font-weight: 400;
+    font-size: 24px;
+    margin-bottom: 2vh;
+  }
+  .section__modelonuevo .modelo__ebony-container .modelo__ebony-text h4 {
+    font-weight: 700;
+    font-size: 12px;
+    margin-bottom: 2vh;
+  }
+  .section__modelonuevo .modelo__ebony-container .modelo__ebony-text h2 {
+    font-family: "Abril Fatface";
+    text-align: left;
+    letter-spacing: 0.2vw;
+    font-weight: 400;
+    font-size: 24px;
+    margin-bottom: 2vh;
+  }
+  .section__modelonuevo .modelo__ebony-container .modelo__ebony-text p {
+    width: 90%;
+    font-weight: 400;
+    font-size: 16px;
+    margin-bottom: 2vh;
+    line-height: 2.5vh;
+  }
+  .section__modelonuevo .modelo__ebony-container .modelo__ebony-text ul {
+    width: 50%;
+  }
+  .section__modelonuevo .modelo__ebony-container .modelo__ebony-text li {
+    margin-left: 0%;
+    list-style: inherit;
+    font-size: 12px;
+  }
+  .section__modelonuevo .modelo__ebony-container .modelo__ebony-text .btn-negro-mobile {
+    display: none;
+  }
+  .section__modelonuevo .modelo__ebony-container .modelo__ebony-text .btn-negro-desktop {
+    margin-top: 2.5vh;
+    border-radius: 5px;
+    padding: 5px;
+    width: 20vw;
+  }
+  .section__modelonuevo .modelo__ebony-image {
+    width: 40%;
+  }
+  .section__modelonuevo .modelo__ebony-image .pianocafe_b1 {
+    position: absolute;
+    left: 55%;
+    top: 115%;
+  }
+  .section__modelonuevo .modelo__ebony-image .pianocafe_b2 {
+    position: absolute;
+    left: 55%;
+    top: 115%;
+  }
+  .section__modelonuevo .modelo__ebony-image .pianocafe {
+    position: absolute;
+    left: 55%;
+    top: 115%;
+  }
+  .section__buscando button, .header__container .header__nav .header__nav--desktop nav ul li .contactanos, .header__section .header__section--btns .btn-negro, .section__modelonuevo .modelo__ebony-container .modelo__ebony-text .btn-negro-desktop {
     color: white;
     background-color: black;
   }
@@ -135,7 +326,7 @@ body {
     align-items: center;
     justify-content: center;
   }
-  footer, .section__buscando .modelos {
+  footer, .section__buscando .modelos, .section__modelonuevo .modelo__ebony-container, .section__modelonuevo .modelo__ebony-container .modelo__ebony-text ul {
     display: flex;
     align-items: center;
     justify-content: space-around;
