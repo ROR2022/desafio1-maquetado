@@ -52,7 +52,7 @@ body {
     width: 100%;
     height: 60vh;
   }
-  .div__partners, .div__segundaFila #yamaha, .div__segundaFila #hefiltiti {
+  .div__partners, .div__segundaFila #hefiltiti {
     border: 1px solid black;
     border-radius: 50px;
     border: 7px solid black;
@@ -64,6 +64,36 @@ body {
     background-color: black;
     color: white;
   }
+  .div__segundaFila #yamaha {
+    border: 1px solid black;
+    width: 222px;
+    height: 100px;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border: 7px solid black;
+    border-right: 0;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    color: white;
+    margin-right: 0;
+  }
+  .div__segundaFila #yamaha #imgYamaha {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 0;
+    width: 43px;
+    height: 90px;
+    background-color: gray;
+    border-top-left-radius: 280px;
+    border-bottom-left-radius: 280px;
+    border: 1px solid white;
+    border-right: 0;
+  }
   .contenedor__imagen {
     display: flex;
     justify-content: center;
@@ -73,7 +103,7 @@ body {
   .div__partners span, .div__segundaFila #yamaha, .div__segundaFila #hefiltiti, .section__partners h4 {
     font-style: normal;
     font-weight: 400;
-    font-size: 32px;
+    font-size: 30px;
     text-align: center;
   }
   /*COMIENZA ZOY*/
@@ -177,7 +207,7 @@ body {
     width: 100%;
     height: 60vh;
   }
-  .div__partners, .div__segundaFila #yamaha, .div__segundaFila #hefiltiti {
+  .div__partners, .div__segundaFila #hefiltiti {
     border: 1px solid black;
     border-radius: 50px;
     border: 7px solid black;
@@ -189,6 +219,36 @@ body {
     background-color: black;
     color: white;
   }
+  .div__segundaFila #yamaha {
+    border: 1px solid black;
+    width: 222px;
+    height: 100px;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border: 7px solid black;
+    border-right: 0;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    color: white;
+    margin-right: 0;
+  }
+  .div__segundaFila #yamaha #imgYamaha {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 0;
+    width: 43px;
+    height: 90px;
+    background-color: gray;
+    border-top-left-radius: 280px;
+    border-bottom-left-radius: 280px;
+    border: 1px solid white;
+    border-right: 0;
+  }
   .contenedor__imagen {
     display: flex;
     justify-content: center;
@@ -198,7 +258,7 @@ body {
   .div__partners span, .div__segundaFila #yamaha, .div__segundaFila #hefiltiti, .section__partners h4 {
     font-style: normal;
     font-weight: 400;
-    font-size: 32px;
+    font-size: 30px;
     text-align: center;
   }
   /*COMIENZA ZOY*/
@@ -265,7 +325,7 @@ body {
     width: 100%;
     height: 60vh;
   }
-  .div__partners, .div__segundaFila #yamaha, .div__segundaFila #hefiltiti {
+  .div__partners, .div__segundaFila #hefiltiti {
     border: 1px solid black;
     border-radius: 50px;
     border: 7px solid black;
@@ -277,6 +337,36 @@ body {
     background-color: black;
     color: white;
   }
+  .div__segundaFila #yamaha {
+    border: 1px solid black;
+    width: 222px;
+    height: 100px;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border: 7px solid black;
+    border-right: 0;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    color: white;
+    margin-right: 0;
+  }
+  .div__segundaFila #yamaha #imgYamaha {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 0;
+    width: 43px;
+    height: 90px;
+    background-color: gray;
+    border-top-left-radius: 280px;
+    border-bottom-left-radius: 280px;
+    border: 1px solid white;
+    border-right: 0;
+  }
   .contenedor__imagen {
     display: flex;
     justify-content: center;
@@ -286,7 +376,7 @@ body {
   .div__partners span, .div__segundaFila #yamaha, .div__segundaFila #hefiltiti, .section__partners h4 {
     font-style: normal;
     font-weight: 400;
-    font-size: 32px;
+    font-size: 30px;
     text-align: center;
   }
   /*COMIENZA ZOY*/
@@ -306,43 +396,39 @@ body {
     width: 100%;
     height: 30%;
   }
+  .div__primerFila span {
+    padding-right: 45px;
+  }
   .div__segundaFila {
     gap: 100px;
     width: 100%;
     height: 30%;
   }
+  .div__segundaFila span {
+    padding-left: 25px;
+  }
   .div__segundaFila #hefiltiti {
     position: absolute;
-    margin-right: 88%;
+    margin-right: 80%;
     width: 315px;
     height: 100px;
     font-family: "Raleway";
   }
   .div__segundaFila #yamaha {
     position: absolute;
-    margin-left: 83%;
-    width: 315px;
-    height: 100px;
+    margin-left: 78%;
     font-family: "Raleway";
-  }
-  .div__segundaFila #yamaha #imgYamaha {
-    width: 90px;
-    height: 90px;
-    background-color: gray;
-    border-radius: 50%;
-    border: 1px solid white;
-    display: flex;
-    justify-content: flex-start;
-    padding: 10px;
-    align-items: stretch;
   }
   .div__tercerFila {
     gap: 30px;
     width: 100%;
     height: 30%;
   }
+  .div__tercerFila span {
+    padding-right: 45px;
+  }
   .div__partners {
-    width: 30%;
+    width: 32%;
     height: 100%;
   }
   .div__partners span {
