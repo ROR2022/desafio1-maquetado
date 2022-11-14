@@ -30,8 +30,11 @@ body {
   @import "mixins-mobile";
   
   @import "header-mobile";
+
   @import "section__buscando--mobile";
   @import "section__modelos-mobile";
+
+  @import "footer__mobile";
 }
 
 @media only screen and (min-width: 1000px) {

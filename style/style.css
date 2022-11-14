@@ -46,7 +46,7 @@ body {
     align-items: center;
     justify-content: center;
   }
-  .section__buscando .modelos .modelo__butterfly .data .btns, .section__buscando .modelos .modelo__butterfly .data ul, .header__container .header__section .header__section--btns {
+  footer section .footer__contactanos, footer section .footer__nosotros ul, footer section .footer__nosotros, footer section .footer__logos, footer, .section__buscando .modelos .modelo__butterfly .data .btns, .section__buscando .modelos .modelo__butterfly .data ul, .header__container .header__section .header__section--btns {
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -310,6 +310,84 @@ body {
     top: 10%;
     left: 15%;
     right: 0;
+  }
+  footer {
+    width: 100vw;
+    height: 100vh;
+    flex-direction: column;
+    background: linear-gradient(177.96deg, rgba(255, 255, 255, 0.43) 1.72%, #6f6f6f 107.44%);
+  }
+  footer section {
+    width: 100%;
+    height: 90%;
+  }
+  footer section .footer__logos {
+    width: 100vw;
+    height: 40%;
+    flex-direction: column;
+    text-align: center;
+  }
+  footer section .footer__logos img {
+    border-radius: 4vw;
+  }
+  footer section .footer__nosotros {
+    flex-direction: column;
+    width: 100vw;
+    height: 40%;
+  }
+  footer section .footer__nosotros h2 {
+    font-family: "Abril Fatface";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+  }
+  footer section .footer__nosotros ul {
+    flex-direction: column;
+  }
+  footer section .footer__nosotros ul li {
+    font-family: inherit;
+    font-style: normal;
+    font-weight: 100;
+    font-size: 14px;
+    line-height: 25px;
+  }
+  footer section .footer__nosotros p {
+    display: none;
+  }
+  footer section .footer__contactanos {
+    flex-direction: column;
+    width: 100vw;
+    height: 20%;
+  }
+  footer section .footer__contactanos h2 {
+    font-family: "Abril Fatface";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+  }
+  footer section .footer__contactanos p {
+    margin-bottom: 5vh;
+    width: 50%;
+    height: 20%;
+    font-family: inherit;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 21px;
+  }
+  footer p {
+    margin-top: 5vh;
+    font-family: "Raleway";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 16px;
+  }
+  footer .firma {
+    margin-top: 5vh;
+    text-align: center;
   }
 }
 @media only screen and (min-width: 1000px) {
