@@ -1,5 +1,5 @@
 footer {
-  @include tam-mobile(100vw, 100vh);
+  @include tam-mobile(100vw, auto);
   @extend %flexaround-mobile;
   flex-direction: column;
   background: linear-gradient(
