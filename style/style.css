@@ -305,6 +305,115 @@ body {
     left: 15%;
     right: 0;
   }
+  .section__contactanos {
+    position: relative;
+    padding: 32px;
+    height: auto;
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(180deg, #ffffff 0%, rgba(255, 255, 255, 0.35) 100%);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .section__contactanos .section__contactanos--fondo {
+    -o-object-fit: contain;
+       object-fit: contain;
+    overflow: hidden;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    width: 100%;
+  }
+  .section__contactanos .section__contactanos--fondo img {
+    height: 100%;
+    width: 100%;
+  }
+  .section__contactanos h2 {
+    font-family: "Abril Fatface";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.05em;
+    color: #000000;
+    margin-bottom: 20px;
+    justify-content: center;
+  }
+  .section__contactanos p {
+    font-family: "Raleway";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.05em;
+    color: #000000;
+  }
+  .section__contactanos form input {
+    background: rgba(0, 0, 0, 0.65);
+    border: 1px solid #ffffff;
+    border-radius: 4px;
+    width: 100%;
+    height: 36px;
+    margin-top: 18px;
+  }
+  .section__contactanos form input .input__cuentanos {
+    box-sizing: border-box;
+    position: absolute;
+    width: 288px;
+    height: 148px;
+    background: rgba(0, 0, 0, 0.65);
+    border: 1px solid #ffffff;
+  }
+  .section__contactanos form label {
+    font-family: "Raleway";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.05em;
+    margin-top: 18px;
+  }
+  .section__contactanos form button {
+    width: 100%;
+    height: 32px;
+    background: #000000;
+    border-radius: 8px;
+    color: white;
+    font-family: Raleway;
+    font-size: 14px;
+    text-align: center;
+    font-weight: bolder;
+    margin-top: 16px;
+  }
+  .section__contactanos form textarea#cuentanos {
+    width: 100%;
+    background: rgba(0, 0, 0, 0.65);
+    border: 1px solid #ffffff;
+    border-radius: 4px;
+    margin-top: 18px;
+  }
+  .section__contactanos .section__contactanos--body {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  .section__contactanos .section__contactanos--body .input__telemail {
+    display: flex;
+    flex-direction: column;
+  }
+  .section__contactanos .section__contactanos--body .input__telemail .columnas {
+    width: 100%;
+  }
   .section__partners {
     border: 1px solid black;
     background: linear-gradient(#6f6f6f, #fff);
