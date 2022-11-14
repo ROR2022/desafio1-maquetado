@@ -942,7 +942,7 @@ body {
   }
   .div__segundaFila #hefiltiti {
     position: absolute;
-    margin-right: 88%;
+    margin-right: 85%;
     width: 315px;
     height: 100px;
     font-family: "Raleway";
@@ -1000,7 +1000,7 @@ body {
     text-align: center;
   }
   .div__partners {
-    width: 30%;
+    width: 350px;
     height: 100%;
   }
   .div__partners span {

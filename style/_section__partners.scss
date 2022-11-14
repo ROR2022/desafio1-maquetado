@@ -34,7 +34,7 @@
     @include tam(100%,30%);
      #hefiltiti{
         position: absolute;
-        margin-right: 88%;
+        margin-right: 85%;
         @include tam(315px,100px);
         @extend %Partner; 
         font-family: 'Raleway';
@@ -95,7 +95,7 @@
         }
 }
 .div__partners{
-    @include tam(30%,100%);
+    @include tam(350px,100%);
     @extend %Partner;
         span{
             font-family: 'Raleway';
