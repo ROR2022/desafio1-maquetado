@@ -1,0 +1,111 @@
+.section__modelonuevo {
+  border: 1px solid #000;
+  width: 100vw;
+  height: auto;
+  text-align: center;
+  h2 {
+    font-family: "Abril Fatface";
+    text-align: center;
+    letter-spacing: 0.2vw;
+    font-weight: 400;
+    font-size: 32px;
+  }
+  .modelo__ebony-container {
+    height: auto;
+    background: linear-gradient(
+      180deg,
+      rgba(255, 255, 255, 0.820101) 1%,
+      rgba(0, 0, 0, 0.75) 60%,
+      rgba(0, 0, 0, 0.75) 90%,
+      rgba(255, 255, 255, 0.6454) 100%,
+    );
+    border: 1px solid #000;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column-reverse;
+    .modelo__ebony-text {
+      border: 1px solid #000;
+      height: auto;
+      margin-top: 5%;
+      color: white;
+      h3{
+        font-family: 'Abril Fatface' ;
+        text-align: center;
+        letter-spacing: .2vw;
+        font-weight: 400;
+        font-size: 28px;
+        margin-bottom: 2vh;
+      }
+      h4{
+        font-weight: 700;
+        font-size: 17px;
+        margin-bottom: 2vh;
+      }
+      h2{
+      font-family: 'Abril Fatface' ;
+      text-align: center;
+      letter-spacing: .2vw;
+      font-weight: 400;
+      font-size: 24px;
+      margin-bottom: 2vh;
+      }
+      p{
+        margin-left: 25%;
+        width: 50%;
+        height: 200px;
+        border: #000 solid 1px;
+        text-align: center;
+      }
+      ul{
+        margin-top: 1%;
+        margin-left: 25%;
+        width: 50%;
+        display: flex;
+        justify-content: space-around;
+        li{
+            list-style: inherit ;
+        }
+      }
+
+      .btn-negro-desktop{
+        display: none;
+      }
+      .btn-negro-mobile{
+      margin-top: 1.8vh;
+      border-radius: 10px;
+      padding: 5px;
+      width: 50vw;
+      color: white;
+      background-color: black;
+      }
+    }
+    .modelo__ebony-image {
+      background-image: url(../img/Background.png);
+      background-size: cover; /* <------ */
+      background-repeat: no-repeat;
+      border: 1px solid #000;
+      height: 30vh;
+      width: 100%;
+      position: relative;
+      .pianocafe_b1 {
+        position: absolute;
+        top: 10%;
+        left: 15%;
+        right: 0;
+      }
+      .pianocafe_b2 {
+        position: absolute;
+        top: 12%;
+        left: 27%;
+        right: 0;
+      }
+      .pianocafe {
+        position: absolute;
+        top: 10%;
+        left: 15%;
+        right: 0;
+      }
+    }
+  }
+}
