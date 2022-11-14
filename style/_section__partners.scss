@@ -2,6 +2,7 @@
 
 .section__partners{
     position: relative;
+    @include tam(100vw,100vh);
     @extend %medidaSectionPartners;
     background: linear-gradient(#6f6f6f, #fff);
     h4{
