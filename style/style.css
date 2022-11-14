@@ -312,7 +312,6 @@ body {
     right: 0;
   }
   .section__partners {
-    border: 1px solid black;
     background: linear-gradient(#6f6f6f, #fff);
   }
   .section__partners h4 {
