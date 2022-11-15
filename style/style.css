@@ -611,17 +611,17 @@ body {
     padding: 5px;
     width: 12vw;
   }
-  footer .firma, .div__tercerFila, .div__segundaFila, .div__primerFila, .section__buscando .modelos .modelo__butterfly .data .btns .precio, .section__buscando .modelos .modelo__butterfly, .section__buscando {
+  footer .firma, .div__tercerFila, .div__segundaFila, .div__primerFila {
     display: flex;
     align-items: center;
     justify-content: center;
   }
-  footer section .footer__logos, footer section, .section__modelonuevo .modelo__ebony-container .modelo__ebony-text ul, .section__modelonuevo .modelo__ebony-container, .section__buscando .modelos .modelo__butterfly .data ul, .section__buscando .modelos {
+  footer section .footer__logos, footer section, .section__modelonuevo .modelo__ebony-container .modelo__ebony-text ul, .section__modelonuevo .modelo__ebony-container {
     display: flex;
     align-items: center;
     justify-content: space-around;
   }
-  footer, .section__buscando .modelos .modelo__butterfly .data .btns {
+  footer {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -731,6 +731,9 @@ body {
     margin: 1px;
   }
   .section__buscando {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     flex-direction: column;
     background: linear-gradient(180deg, white 25%, #dcdcdc, white 90%);
     width: 100vw;
@@ -750,12 +753,18 @@ body {
   .section__buscando .modelos {
     width: 100%;
     height: 60%;
-    align-content: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
     margin-top: 10vw;
   }
   .section__buscando .modelos .modelo__butterfly {
     width: 25%;
     height: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     flex-direction: column;
     border-radius: 10px;
     background-color: white;
@@ -771,20 +780,26 @@ body {
   .section__buscando .modelos .modelo__butterfly .data {
     width: 100%;
     height: 50%;
-    margin-top: 8vw;
-    border-top: 2px dashed #DBDBDB;
     display: flex;
     align-items: stretch;
     justify-content: space-between;
     flex-direction: column;
+    margin-top: 8vw;
+    border-top: 2px dashed #dbdbdb;
   }
   .section__buscando .modelos .modelo__butterfly .data .name {
-    margin: 1vw;
     font-family: "Abril Fatface";
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 22px;
+    margin: 1vw;
+  }
+  .section__buscando .modelos .modelo__butterfly .data ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
   }
   .section__buscando .modelos .modelo__butterfly .data ul li {
     font-family: "Raleway";
@@ -796,10 +811,18 @@ body {
   .section__buscando .modelos .modelo__butterfly .data .btns {
     width: 100%;
     height: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
   }
   .section__buscando .modelos .modelo__butterfly .data .btns .precio {
-    width: 80%;
+    width: 70%;
     height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
     border: 1px solid black;
   }
   .section__buscando .modelos .modelo__butterfly .data .btns .precio span {
@@ -1129,17 +1152,17 @@ body {
     padding: 5px;
     width: 12vw;
   }
-  footer .firma, .section__buscando, .section__buscando .modelos .modelo__butterfly, .section__buscando .modelos .modelo__butterfly .data .btns .precio, .div__primerFila, .div__segundaFila, .div__tercerFila {
+  footer .firma, .div__primerFila, .div__segundaFila, .div__tercerFila {
     display: flex;
     align-items: center;
     justify-content: center;
   }
-  footer section .footer__logos, footer section, .section__buscando .modelos, .section__buscando .modelos .modelo__butterfly .data ul, .section__modelonuevo .modelo__ebony-container, .section__modelonuevo .modelo__ebony-container .modelo__ebony-text ul {
+  footer section .footer__logos, footer section, .section__modelonuevo .modelo__ebony-container, .section__modelonuevo .modelo__ebony-container .modelo__ebony-text ul {
     display: flex;
     align-items: center;
     justify-content: space-around;
   }
-  footer, .section__buscando .modelos .modelo__butterfly .data .btns {
+  footer {
     display: flex;
     align-items: center;
     justify-content: space-between;

@@ -33,7 +33,7 @@ body {
 
   @import "section__buscando--mobile";
   @import "section__modelos-mobile";
-  @import "_section__contactanos--mobile.scss";
+  @import "section__contactanos--mobile";
   @import "section__partners-mobil";
 
   @import "footer__mobile";
@@ -43,6 +43,10 @@ body {
   @import "extends";
   @import "mixins";
   
+<<<<<<< HEAD
+=======
+  
+>>>>>>> ramiro
   @import "header";
 
   @import "section__buscando";
