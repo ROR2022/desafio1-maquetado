@@ -1,4 +1,4 @@
-$abril: "Abril Fatface";
+
 
 .section__buscando {
   @include miFlex(center, center, column);
@@ -33,7 +33,7 @@ $abril: "Abril Fatface";
 
       .data {
         @include tam(100%, 50%);
-        
+
         @include miFlex(stretch, space-between, column);
         margin-top: 8vw;
         border-top: 2px dashed #dbdbdb;
@@ -46,14 +46,14 @@ $abril: "Abril Fatface";
         ul {
           @include miFlex(center, space-around, row);
           li {
-            @include tipografia("Raleway", normal, 400, 12px, 14px);
+            @include tipografia($rale, normal, 400, 12px, 14px);
           }
         }
 
         .btns {
           @include tam(100%, 25%);
           @include miFlex(center, space-around, row);
-          
+
           .precio {
             @include tam(70%, 100%);
             @include miFlex(center, space-around, row);
