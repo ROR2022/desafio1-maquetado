@@ -857,7 +857,8 @@ body {
     padding-bottom: 3vh;
   }
   .section__modelonuevo .modelo__ebony-container .modelo__ebony-text {
-    width: 40%;
+    width: 40vw;
+    margin-left: -10vw;
   }
   .section__modelonuevo .modelo__ebony-container .modelo__ebony-text h3 {
     font-family: "Abril Fatface";
@@ -881,17 +882,20 @@ body {
     margin-bottom: 2vh;
   }
   .section__modelonuevo .modelo__ebony-container .modelo__ebony-text p {
-    width: 90%;
+    text-align: justify left;
+    width: 40vw;
     font-weight: 400;
     font-size: 16px;
     margin-bottom: 2vh;
     line-height: 2.5vh;
+    letter-spacing: 0.2vh;
   }
   .section__modelonuevo .modelo__ebony-container .modelo__ebony-text ul {
-    width: 50%;
+    width: 30vw;
   }
   .section__modelonuevo .modelo__ebony-container .modelo__ebony-text li {
-    margin-left: 0%;
+    font-weight: 700;
+    margin-left: -3vw;
     list-style: inherit;
     font-size: 12px;
   }
@@ -899,29 +903,33 @@ body {
     display: none;
   }
   .section__modelonuevo .modelo__ebony-container .modelo__ebony-text .btn-negro-desktop {
+    font-family: "Raleway";
+    font-weight: 400;
+    font-size: 14px;
     margin-top: 2.5vh;
-    border-radius: 5px;
+    border-radius: 11px;
     padding: 5px;
-    width: 20vw;
+    width: 25vw;
+    margin-left: 1vw;
   }
   .section__modelonuevo .modelo__ebony-image {
-    width: 40%;
+    width: 25vw;
     position: relative;
   }
   .section__modelonuevo .modelo__ebony-image .pianocafe_b1 {
     position: absolute;
-    left: 55%;
-    top: 130%;
+    left: -15vw;
+    top: -20vh;
   }
   .section__modelonuevo .modelo__ebony-image .pianocafe_b2 {
     position: absolute;
-    left: 55%;
-    top: 130%;
+    left: -15vw;
+    top: -20vh;
   }
   .section__modelonuevo .modelo__ebony-image .pianocafe {
     position: absolute;
-    left: 55%;
-    top: 130%;
+    left: -15vw;
+    top: -20vh;
   }
   .section__contactanos {
     position: relative;
