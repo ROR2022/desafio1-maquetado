@@ -41,12 +41,7 @@ body {
     padding: 5px;
     width: 12vw;
   }
-  .section__buscando .modelos .modelo__butterfly {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  footer section .footer__contactanos, footer section .footer__nosotros ul, footer section .footer__nosotros, footer section .footer__logos, footer, .section__buscando .modelos .modelo__butterfly .data .btns, .section__buscando .modelos .modelo__butterfly .data ul, .header__container .header__section .header__section--btns {
+  footer section .footer__contactanos, footer section .footer__nosotros ul, footer section .footer__nosotros, footer section .footer__logos, footer, .header__container .header__section .header__section--btns {
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -158,18 +153,21 @@ body {
     height: auto;
   }
   .section__buscando .modelos .modelo__butterfly {
-    margin: 4vw 0;
-    background-color: white;
-    border-radius: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     flex-direction: column;
     width: 80%;
     height: auto;
+    margin: 4vw 0;
+    background-color: white;
+    border-radius: 5%;
     box-shadow: 0px 28px 64px 12px rgba(0, 0, 0, 0.12);
   }
   .section__buscando .modelos .modelo__butterfly .img {
-    margin-top: 10%;
     width: 80%;
     height: 60%;
+    margin-top: 10%;
   }
   .section__buscando .modelos .modelo__butterfly .data {
     width: 100%;
@@ -179,14 +177,18 @@ body {
     border-top: 1px dashed #DBDBDB;
   }
   .section__buscando .modelos .modelo__butterfly .data .name {
-    margin: 2vw 0;
     font-family: "Abril Fatface";
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
     line-height: 28px;
+    margin: 2vw 0;
   }
   .section__buscando .modelos .modelo__butterfly .data ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
     margin: 2vw 0;
   }
   .section__buscando .modelos .modelo__butterfly .data ul li {
@@ -197,6 +199,10 @@ body {
     line-height: 14px;
   }
   .section__buscando .modelos .modelo__butterfly .data .btns {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
     margin: 2vw 0;
   }
   .section__buscando .modelos .modelo__butterfly .data .btns .precio {
