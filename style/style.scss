@@ -1,5 +1,8 @@
+//definiciones y configuraciones 
 @import 'basics';
 
+
+//modo mobile
 @media only screen and (max-width: 600px) {
   @import "extends-mobile";
   @import "mixins-mobile";
@@ -14,6 +17,7 @@
   @import "footer__mobile";
 }
 
+//modo dektop
 @media only screen and (min-width: 1000px) {
   @import "extends";
   @import "mixins";
