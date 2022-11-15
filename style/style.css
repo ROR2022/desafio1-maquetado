@@ -41,7 +41,7 @@ body {
     padding: 5px;
     width: 12vw;
   }
-  .section__buscando .modelos .modelo__butterfly, .section__buscando .modelos, .section__buscando {
+  .section__buscando .modelos .modelo__butterfly {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -130,6 +130,9 @@ body {
     display: none;
   }
   .section__buscando {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     flex-direction: column;
     width: 100vw;
     height: auto;
@@ -147,6 +150,9 @@ body {
     margin: 1vw 0;
   }
   .section__buscando .modelos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     flex-direction: column;
     width: 100%;
     height: auto;

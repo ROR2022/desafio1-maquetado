@@ -1,18 +1,16 @@
 .section__buscando {
-  @extend %flexcentrar-mobile;
-  flex-direction: column;
+  @include miFlex-mobile(center, center, column);
   @include tam-mobile(100vw, auto);
   background: linear-gradient(180deg, white 25%, #dcdcdc, white 90%);
 
   h2 {
-    @include tipografia-mobile("Abril Fatface", normal, 400, 32px, 40px);
+    @include tipografia-mobile($abril, normal, 400, 32px, 40px);
     @include tam-mobile(100%, 72px);
     text-align: center;
     margin: 1vw 0;
   }
   .modelos {
-    @extend %flexcentrar-mobile;
-    flex-direction: column;
+    @include miFlex-mobile(center, center, column);
     @include tam-mobile(100%,auto);
     .modelo__butterfly {
       margin: 4vw 0;
@@ -33,13 +31,13 @@
         border-top: 1px dashed #DBDBDB;
         .name{
           margin: 2vw 0;
-          @include tipografia-mobile("Abril Fatface", normal, 400, 20px, 28px);
+          @include tipografia-mobile($abril, normal, 400, 20px, 28px);
         }
         ul{
           margin: 2vw 0;
           @extend %flexaround-mobile;
           li {
-            @include tipografia-mobile("Raleway", normal, 400, 12px, 14px);
+            @include tipografia-mobile($rale, normal, 400, 12px, 14px);
           }
         }
         .btns{
