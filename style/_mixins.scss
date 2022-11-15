@@ -10,4 +10,10 @@
   font-size: $size;
   line-height: $lh;
 }
+@mixin miFlex($align,$justify,$direction){
+  display: flex;
+  align-items: $align;
+  justify-content: $justify;
+  flex-direction: $direction;
+}
 /*COMIENZA ZOY*/
