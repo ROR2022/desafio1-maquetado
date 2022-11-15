@@ -1,0 +1,68 @@
+.section__buscando {
+  @extend %flexcentrar-mobile;
+  flex-direction: column;
+  @include tam-mobile(100vw, auto);
+  background: linear-gradient(180deg, white 25%, #dcdcdc, white 90%);
+
+  h2 {
+    @include tipografia-mobile("Abril Fatface", normal, 400, 32px, 40px);
+    @include tam-mobile(100%, 72px);
+    text-align: center;
+    margin: 1vw 0;
+  }
+  .modelos {
+    @extend %flexcentrar-mobile;
+    flex-direction: column;
+    @include tam-mobile(100%,auto);
+    .modelo__butterfly {
+      margin: 4vw 0;
+      background-color: white;
+      border-radius: 5%;
+      @extend %flexcentrar-mobile;
+      flex-direction: column;
+      @include tam-mobile(80%,auto);
+      box-shadow: 0px 28px 64px 12px rgba(0, 0, 0, 0.12);
+      .img{
+        margin-top: 10%;
+        @include tam-mobile(80%,60%);
+      }
+      .data{
+        @include tam-mobile(100%,auto);
+        margin-left: 2vw;
+        margin-top: 4vw;
+        border-top: 1px dashed #DBDBDB;
+        .name{
+          margin: 2vw 0;
+          @include tipografia-mobile("Abril Fatface", normal, 400, 20px, 28px);
+        }
+        ul{
+          margin: 2vw 0;
+          @extend %flexaround-mobile;
+          li {
+            @include tipografia-mobile("Raleway", normal, 400, 12px, 14px);
+          }
+        }
+        .btns{
+          margin: 2vw 0;
+          @extend %flexaround-mobile;
+          .precio{
+            @include tam-mobile(60%,90%);
+            @extend %boton-mobile;
+            @extend %btn-blanco-mobile;
+            border: 1px solid black;
+            text-align: center;
+            span{
+              font-weight: bolder;
+            }
+          }
+        }
+      }
+    }
+  }
+  button {
+    @include tam-mobile(40%, 20%);
+    @extend %btn-negro-mobile;
+    @extend %boton-mobile;
+    margin: 4vw 0;
+  }
+}

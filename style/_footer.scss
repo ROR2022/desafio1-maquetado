@@ -1,0 +1,63 @@
+@import "extends";
+@import "mixins";
+
+footer {
+  @extend %flexbetween;
+  flex-direction: column;
+  @include tam(100vw, 90vh);
+
+  background: linear-gradient(180deg, #ffffff 0%, #6f6f6f 100%);
+  section {
+    @include tam(100%, 80%);
+    @extend %flexaround;
+    .footer__logos {
+      @include tam(25%, 80%);
+      @extend %flexaround;
+      flex-direction: column;
+      img {
+        border-radius: 1vw;
+      }
+    }
+    .footer__nosotros {
+      @include tam(25%, 80%);
+      display: flex;
+      align-items: flex-start;
+      justify-content: space-around;
+      flex-direction: column;
+      h2 {
+        @include tipografia("Abril Fatface", Regular, 400, 19px, 100%);
+      }
+      ul {
+        @include tam(100%, 80%);
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-around;
+        flex-direction: column;
+        margin: 1vw 0 5vw 0;
+        li {
+          @include tipografia(inherit, normal, 100, 14px, 25px);
+        }
+      }
+    }
+    .footer__contactanos {
+      @include tam(25%, 80%);
+      h2 {
+        margin-bottom: 2vw;
+        @include tipografia("Abril Fatface", normal, 400, 19px, 22px);
+      }
+      p {
+        @include tam(70%, 25%);
+        @include tipografia(inherit, normal, 100, 14px, 25px);
+      }
+    }
+  }
+  .derechos{
+    display: none;
+  }
+  .firma {
+    @include tam(20%, 10%);
+    @extend %flexcentrar;
+    flex-direction: column;
+    margin: 5vw 0;
+  }
+}
