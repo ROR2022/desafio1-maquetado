@@ -277,32 +277,35 @@ body {
     border-radius: 10px;
     padding: 5px;
     width: 50vw;
-    color: white;
+    color: #999;
   }
   .section__modelonuevo .modelo__ebony-container .modelo__ebony-image {
     background-image: url(../img/Background.png);
     background-size: cover; /* <------ */
     background-repeat: no-repeat;
-    height: 35vh;
+    height: 50vh;
     width: 100%;
     position: relative;
   }
   .section__modelonuevo .modelo__ebony-container .modelo__ebony-image .pianocafe_b1 {
     position: absolute;
+    width: 80%;
     top: 10%;
-    left: 15%;
+    left: 10%;
     right: 0;
   }
   .section__modelonuevo .modelo__ebony-container .modelo__ebony-image .pianocafe_b2 {
     position: absolute;
+    width: 80%;
     top: 12%;
-    left: 27%;
+    left: 10%;
     right: 0;
   }
   .section__modelonuevo .modelo__ebony-container .modelo__ebony-image .pianocafe {
     position: absolute;
+    width: 80%;
     top: 10%;
-    left: 15%;
+    left: 10%;
     right: 0;
   }
   .section__contactanos {
