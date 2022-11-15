@@ -34,7 +34,7 @@
       .data {
         @include tam(100%, 50%);
 
-        @include miFlex(stretch, space-between, column);
+        @include miFlex(flex-start, space-between, column);
         margin-top: 8vw;
         border-top: 2px dashed #dbdbdb;
 
@@ -44,7 +44,9 @@
         }
 
         ul {
-          @include miFlex(center, space-around, row);
+          @include tam(100%, 10%);
+          @include miFlex(center, space-between, row);
+          padding: 0 1vw;
           li {
             @include tipografia($rale, normal, 400, 12px, 14px);
           }
@@ -52,20 +54,21 @@
 
         .btns {
           @include tam(100%, 25%);
-          @include miFlex(center, space-around, row);
+          @include miFlex(center, space-between, row);
 
           .precio {
             @include tam(70%, 100%);
             @include miFlex(center, space-around, row);
-            @extend %boton;
-            @extend %btn-blanco;
+            border-radius: 5px;
             border: 1px solid black;
+            margin-left: 2vw;
+            
             span {
               font-weight: bolder;
             }
           }
           .img-cart {
-            @include tam(10%, 100%);
+            @include tam(12%, 100%);
             margin: 1vw;
           }
         }
